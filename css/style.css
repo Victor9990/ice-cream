@@ -195,3 +195,43 @@ img {
     width: 100%;
     height: 100%;
 }
+
+.ice-cream {
+    background-color: #F8EDF0;
+    padding: 73px 0px 85px;
+}
+
+.ice-cream__content {
+    display: flex;
+    align-items: center;
+}
+
+.ice-cream__column {
+    width: 50%;
+}
+
+.ice-cream__title {
+    font-family: 'Hind Madurai';
+    font-weight: 600;
+    font-size: 44.2px;
+    line-height: 49px;
+    color: #150101;
+    margin-bottom: 16px;
+}
+
+.ice-cream__desc {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(21, 1, 1, 0.6);
+    margin-bottom: 35px;
+}
+
+.ice-cream__info {
+    margin-right: 128px;
+}
+
+.benefit__img {
+    width: 48px;
+    height: 48px;
+}
