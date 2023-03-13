@@ -235,3 +235,53 @@ img {
     width: 48px;
     height: 48px;
 }
+
+/* Feedback section */
+
+.review__text {
+    max-width: 345px;
+    padding-left: 23px;
+    position: relative;
+}
+
+.review__text::before,
+.review__text::after {
+    content: '';
+    background-image: url(../img/quote.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 10px;
+    height: 10px;
+}
+
+.review__text::before {
+    transform: scale(-1, 1);
+    top: 0;
+    left: 0;
+    display: block;
+    position: absolute;
+}
+
+.review__text::after {
+    display: inline-block;
+    vertical-align: sub;
+}
+
+.review__head {
+    display: flex;
+}
+
+.avatar {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.avatar__img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: top center;
+}
